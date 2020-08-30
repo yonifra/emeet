@@ -1,4 +1,5 @@
 <script>
+	export let href;
 	let count = 0;
 
 	function handleClick() {
