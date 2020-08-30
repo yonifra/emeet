@@ -1,3 +1,7 @@
+<style>
+      @import url("https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css");
+</style>
+
 <script lang="ts">
   export let title;
   export let subtitle;
@@ -15,6 +19,7 @@
   import Button from "./Button.svelte";
 </script>
 
+
 <Card class="mb-3">
   <CardHeader>
     <CardTitle>{title}</CardTitle>
@@ -27,3 +32,4 @@
     <Button href={url}/>
   </CardBody>
 </Card>
+
